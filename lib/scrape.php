@@ -16,10 +16,10 @@ class Scrape
 	}
 	// this function allows empty POST data if it's white listed
 	private function onWhiteList($value) {
-		$whiteListed = array("websiteName", "optn_useHTMLpurifier", "optn_user_agent");
+		$whiteListed = array('/websiteName/', '/field_name_\d+/', '/optn_useHTMLpurifier/', '/optn_user_agent/');
 		$valid = false;
 		for ($i=0; $i<count($whiteListed); $i++) {
-			if ($value == $whiteListed[$i]) {
+			if (preg_match($whiteListed[$i], $value)) {
 				$valid = true;
 			}
 		}
@@ -38,7 +38,7 @@ class Scrape
 	public function valData($postData)  // (validateData)
 	{
 		$errorMsg = "";
-		$valid = array("url", "capture_method_", "expression_", "field_name_", "optn_request_method");
+		$valid = array("url", "capture_method_", "expression_", "optn_request_method");
 		// if data doesn't contain at least 1 val of $valid, set error
 		if (count($postData) < count($valid)) {
 			$errorMsg .= "Something went wrong!<br>";
@@ -132,6 +132,7 @@ class Scrape
 			$method = $fields[$i][0];
 			$expression = $fields[$i][1];
 			$field_name = $fields[$i][2];
+			if (empty($field_name)) {$field_name = $expression;} // if field name is empty, use expression as name
 			array_push($this->field_names, $field_name); // Push all field_names in an array
 			$tmp = array(); // temp result array
 
@@ -162,7 +163,9 @@ class Scrape
 						$group = $matches[2];
 						$tmp = $this->getRegexResult($group);
 						for ($j=0; $j<count($tmp); $j++) {
-							$tmp[$j] .= '  <a href="' . $tmp[$j] . '" target="blank">[open]</a>';
+							if (preg_match('/http.*:\/\//', $tmp[$j])) {
+								$tmp[$j] .= '  <a href="' . $tmp[$j] . '" target="blank">[open]</a>';
+							}
 						}
 						break;
 					case preg_match('/(.+[^\[\]])(\.)(.+)/', $expression, $matches) == 1: // check if asked for class

@@ -71,7 +71,7 @@ if (count($_POST) > 0) { // (dynamic data)
 							<tr class="active">
 								<th class="text-center">Method</th>
 								<th class="text-center">Expression</th>
-								<th class="text-center">Field name</th>
+								<th class="text-center">Field name (optional)</th>
 								<th class="text-center">Action</th>
 							</tr>
 							<tr class="field field1">
