@@ -29,3 +29,6 @@ Place the files on your (local) webserver
 http://localhost/EasyScraper/index.php
 ```
 Enjoy!
+# Links
+Blog tutorial: https://ictground.com/blog/view/easyscraper-v10-released
+Video: https://www.youtube.com/watch?v=NM5kNLfLwMo
