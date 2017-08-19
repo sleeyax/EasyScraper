@@ -1,5 +1,5 @@
 # EasyScraper
-With only a very basic knowledge of HTML and an easy to use web based GUI, you can scrape almost any website with EasyScraper.
+With only a very basic knowledge of HTML and an easy to use web based GUI, you can scrape almost any website.
 <img src='https://i.imgur.com/AW2TF6S.png'/>
 # Features
 <img src='https://i.imgur.com/AX7QLIt.png'/><br/>
