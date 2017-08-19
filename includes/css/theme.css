@@ -1,0 +1,71 @@
+/*tab control*/
+#tabControl {
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	border-radius: 5px;
+}
+.tc-tab {
+	background-color: #000000;
+}
+.tc-tab-text {
+	color: #FFFFFF;
+}
+.tc-tab-text:hover, .tc-tab-text:focus {
+	color: #FFFFFF;
+	background-color: #202020 !important;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: #EE4646 !important;  /*red*/
+}
+.nav-pills>li>a {
+	border-radius: 0px;
+}
+.tab-pane {
+	background-color: #F9F9F9;
+}
+.tab-content {
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+/*buttons*/
+.scrapeBtn {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.btn-black {
+	background-color: #000000;
+	color: #FFFFFF;
+	background-image: none;
+	border-color: #000000;
+}
+.btn-black:hover, .btn-black:focus {
+	color: #929292;
+}
+/*results*/
+#resultTable span {
+	color: #CF2020;
+}
+/*others*/
+.hide {
+	display: none;
+}
+
+/*settings*/
+.settings-user-agent {
+	margin-top: 10px;
+	-webkit-animation: fadeEffect 0.8s;
+    animation: fadeEffect 0.8s;
+}
+
+/*special effects*/
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
