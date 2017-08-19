@@ -6,7 +6,7 @@ With only a very basic knowledge of HTML and an easy to use web based GUI, you c
 - [x] Supports common HTML elements (img, a, h1-h6...)
 - [x] Mostly succeeds at scraping uncommon elements (optgroup, abbr, wbr...)
 - [x] HTML purifier (http://htmlpurifier.org/)
-- [x] Regex & selector support (HTML parser comming soon!)
+- [x] Regex & selector support
 - [x] Built-in cheatsheet
 - [x] Easy to use
 - [x] Fast
