@@ -20,7 +20,7 @@ Always make sure you're allowed to scrape the website.
 # Installation
 Clone or download as zip
 ```
-git clone https://github.com/ictground/EasyScraper.git
+git clone https://github.com/sleeyax/EasyScraper.git
 ```
 Place the files on your (local) webserver
 ```
