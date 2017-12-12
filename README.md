@@ -30,5 +30,4 @@ http://localhost/EasyScraper/index.php
 ```
 Enjoy!
 # Links
-Blog tutorial: https://ictground.com/blog/view/easyscraper-v10-released <br/>
 Video: https://www.youtube.com/watch?v=NM5kNLfLwMo
