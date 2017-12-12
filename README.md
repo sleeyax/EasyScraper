@@ -1,8 +1,10 @@
 # EasyScraper
 With only a very basic knowledge of HTML and an easy to use web based GUI, you can scrape almost any website.
-<img src='https://i.imgur.com/AW2TF6S.png'/>
+# Screenshots
+<img src='https://i.imgur.com/4kDIiOi.png'/><br/>
+<img src='https://i.imgur.com/BBh4FYq.png'/><br/>
+<img src='https://i.imgur.com/E5hOjqu.png'/>
 # Features
-<img src='https://i.imgur.com/AX7QLIt.png'/><br/>
 - [x] Supports common HTML elements (img, a, h1-h6...)
 - [x] Mostly succeeds at scraping uncommon elements (optgroup, abbr, wbr...)
 - [x] HTML purifier (http://htmlpurifier.org/)
