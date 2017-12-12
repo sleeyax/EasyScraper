@@ -12,11 +12,10 @@ With only a very basic knowledge of HTML and an easy to use web based GUI, you c
 - [x] API
 - [x] Scrape javascript
 - [x] Scrape by class, id or get attribute
-# Notes
-This is an 'old' project I'm going to improve. With other words: you might spot ugly code or weird parts that don't work well.
+# Note
+This is an 'old' project I improved.
 # Agreement
-This application is not intended for use against the Terms Of Service of a website.
-Always make sure you're allowed to scrape the website.
+Always make sure you're allowed to scrape a website. Please double check the ToS.
 # Installation
 Clone or download as zip
 ```
@@ -28,8 +27,8 @@ http://localhost/EasyScraper/index.php
 ```
 Enjoy!
 # Screenshots
-<img src='https://i.imgur.com/4kDIiOi.png'/><br/>
 <img src='https://i.imgur.com/BBh4FYq.png'/><br/>
+<img src='https://i.imgur.com/4kDIiOi.png'/><br/>
 <img src='https://i.imgur.com/E5hOjqu.png'/>
 # Links
 Video: https://www.youtube.com/watch?v=NM5kNLfLwMo
