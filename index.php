@@ -189,7 +189,6 @@ if (count($_POST) > 0) { // (dynamic data)
 	if (!empty($scraper->getData())) { ?>
 	<div class="container" id="resultTable">
 		<h2>Results</h2>
-		<?php for ($i=0; $i<count($scraper->getURL()); $i++) { //TODO: implement multiple URLs?>
 		<table class="table table-bordered">
 			<tr class="active">
 				<th class="text-center"><?php echo $scraper->getWebsiteName(); ?></th>
@@ -210,7 +209,6 @@ if (count($_POST) > 0) { // (dynamic data)
 			</tr>
 			<?php } ?>
 		</table>
-		<?php } ?>
 	</div>
 	<?php } ?>
 </body>
